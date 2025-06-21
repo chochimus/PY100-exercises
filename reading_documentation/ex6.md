@@ -10,5 +10,5 @@ fruits = ["apple", "banana", "cherry", "peach", "watermelon"]
 
 you can determine the index using the method like so:
 ```python
-fruist.index("cherry")
+fruits.index("cherry")
 ```
