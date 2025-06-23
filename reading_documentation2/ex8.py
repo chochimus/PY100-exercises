@@ -7,4 +7,5 @@ if current_speed > speed_limit:
           'much better." -- Marc Andreessen')
     
 
+# Syntax error indicates the parser encountered a syntax error
 # error msg: SytaxError: expected ':' line 4
