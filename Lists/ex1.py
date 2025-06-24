@@ -1,4 +1,6 @@
 def first(collection):
-    if len(collection) > 0:
+    if collection:
         return collection[0]
+    else:
+        return None
 print(first(['Earth', 'Moon', 'Mars']))  # Earth
