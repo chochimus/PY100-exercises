@@ -9,9 +9,9 @@ def local_greet(locale):
             case 'GB':
                 return 'Hello!'
             case 'AU':
-                return 'Howdy'
+                return 'Howdy!'
     else:
-        greet(language)
+        return greet(language)
 
 def extract_language(locale):
     return locale.split('_')[0]
