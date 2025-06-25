@@ -1,9 +1,7 @@
-import random
+def multiply_by_five(n):
+    return n * 5
 
-def predict_weather():
-    sunshine = random.choice(['True', 'False'])
+print("Hello! Which number would you like to multiply by 5?")
+number = int(input())
 
-    if sunshine:
-        print("Today's weather will be sunny!")
-    else:
-        print("Today's weather will be cloudy!")
+print(f"The result is {multiply_by_five(number)}!")
