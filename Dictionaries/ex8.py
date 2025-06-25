@@ -4,4 +4,5 @@ numbers = {
     'low':    25,
 }
 
-print([number//2 for number in numbers.values()])
+half_numbers = [number//2 for number in numbers.values()]
+print(half_numbers)
